@@ -77,7 +77,7 @@ npm run start:prod
    - 로컬 개발 환경 지원 (포트 3000, 5173)
 
 ## 🌐 API 엔드포인트
-
+### [API Docs](https://github.com/kg3546549/Robot-RCS-Server/blob/master/readme.api.md)
 ### 기본 로봇 관리
 
 | Method | Endpoint | Description |
