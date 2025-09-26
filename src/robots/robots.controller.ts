@@ -92,9 +92,12 @@ export class RobotsController {
   }
 
   @Delete(':id')
-  @HttpCode(HttpStatus.NO_CONTENT)
   async remove(@Param('id') id: string) {
     await this.robotsService.remove(id);
+    return {
+      success: true,
+      message: 'Robot deleted successfully'
+    };
   }
 
   @Get(':id/health')
