@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew services:*)",
+      "Bash(brew install:*)",
+      "Bash(brew tap:*)",
+      "Bash(arch -arm64 brew install mongodb-community)",
+      "Bash(brew list:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
